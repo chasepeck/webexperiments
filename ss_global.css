@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'alliance_no.1bold';
+    src: url('/styles/alliance-no-1-bold-webfont.woff2') format('woff2'),
+         url('/styles/alliance-no-1-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'alliance_no.1extrabold';
+    src: url('/styles/alliance-no-1-extrabold-webfont.woff2') format('woff2'),
+         url('/styles/alliance-no-1-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}@font-face {
+    font-family: 'alliance_no.1medium';
+    src: url('/styles/alliance-no-1-medium-webfont.woff2') format('woff2'),
+         url('/styles/alliance-no-1-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@keyframes moveinfromright{
+    0% {left: 500px; opacity: 0;}
+    25% {left: 500px; opacity: 0;}
+    100% {left: 0px; opacity: 1;}
+}
+@keyframes moveinfromleft{
+    0% {right: 500px; opacity: 0;}
+    25% {right: 500px; opacity: 0;}
+    100% {right: 0px; opacity: 1;}
+}
+@keyframes fadein{
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes rainbow{
+    0%    {color: red;}
+    12.5% {color: orange;}
+    25%   {color: yellow;}
+    37.5% {color: green;}
+    50%   {color: blue;}
+    62.5% {color: indigo;}
+    75%   {color: purple;}
+    87.5% {color: violet;}
+    100%  {color: red;}
+}
+@keyframes animcolorbg1{
+    0% {color: green;}
+    50% {color: limegreen;}
+    100% {color: green;}
+}
+@keyframes animcolorbg2{
+    0% {color: orange;}
+    50% {color: orangered;}
+    100% {color: orange;}
+}
